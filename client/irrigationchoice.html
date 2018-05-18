@@ -1,0 +1,94 @@
+<html>
+<head>
+    <title>Irrigation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/core.css">
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/irr.css">
+
+
+
+</head>
+
+<body>
+        
+            
+<div class="mobile-wrapper">
+
+		<div class="mobile mobile-three">
+            
+                <div class="header">
+                        <div class="menu-toggle">
+                                <a href="choice.html"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+                               
+                            </div>
+                         
+                </div>   
+  
+
+        
+                <div class="container">
+                        
+                    <div class="radio-tile-group">
+                  
+                      <div class="input-container" onclick="bessoineau()">
+                        <input id="walk" class="radio-button" type="radio" name="radio" />
+                        <div class="radio-tile">
+                          <div class="icon walk-icon">
+                              <span class="fa fa-shower fa-2x" aria-hidden="true"></span>
+                          </div>
+                          <label for="walk" class="radio-tile-label">Bessoin En Eau</label>
+                        </div>
+                      </div>
+                  
+                      <div class="input-container" onclick="temps()">
+                        <input id="bike" class="radio-button" type="radio" name="radio" />
+                        <div class="radio-tile">
+                          <div class="icon bike-icon">
+                              <span class="fa fa-clock-o fa-2x" aria-hidden="true"></span> 
+                          </div>
+                          <label for="bike" class="radio-tile-label">Temps Irrigation</label>
+                        </div>
+                      </div>
+      
+      
+                    </div>
+                  </div>
+                
+          
+        </div>
+    </div>  
+    <script>
+ 
+        function bessoineau(){
+            location.replace("bessoineau.html");
+            event.preventDefault();
+        }
+        function temps(){
+            location.replace("temps.html");
+            event.preventDefault();
+        }
+    
+    </script>
+    
+
+        <!--===============================================================================================-->
+            <script src="vendor/animsition/js/animsition.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/bootstrap/js/popper.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/select2/select2.min.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/daterangepicker/moment.min.js"></script>
+            <script src="vendor/daterangepicker/daterangepicker.js"></script>
+        <!--===============================================================================================-->
+            <script src="vendor/countdowntime/countdowntime.js"></script>
+        <!--===============================================================================================-->
+            <script src="js/main.js"></script>
+            <script src="./js/core.js"></script>
+
+    </body>
+    </html>
