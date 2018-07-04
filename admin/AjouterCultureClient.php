@@ -93,11 +93,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</a>
 			</li>
 			
+			<li>
+							<a href="AjouterCultureClient.php">
+								<i class="fa fa-check-square-o nav_icon"></i>
+								<span class="nav-text">
+								Culture Client
+								</span>
+							</a>
+						</li>
 	
 		</ul>
 		<ul class="logout">
 			<li>
-			<a href="login.html">
+			<a href="index.html">
 			<i class="icon-off nav-icon"></i>
 			<span class="nav-text">
 			Deconnection
@@ -309,20 +317,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     
                                                 <div class="form-group valid-form">
                                                         <select  class="form-control" name="sel1"  >
-                                                            <option>Choix Client</option>
-                                                            <option>v1</option>
-                                                            <option>v2</option>
+														<option>Choix Client</option>
+														<?php
+														require "connection_bd.php";
+$resultat=mysqli_query($db, "select * from client;");
+while ($ligne=mysqli_fetch_array($resultat)) {
+    ?>
+                                                         
+                                                            <option value="<?php echo $ligne['nom']; ?>"><?php echo $ligne['nom']; ?></option>
+															<?php
+} ?>
                                                             </select>
                                                     </div>
 
 
 
 											<div class="form-group valid-form">
-												<select  class="form-control" name="sel2"  >
-													<option>Choix Culture</option>
-													<option>v1</option>
-													<option>v2</option>
-													</select>
+											<select  class="form-control" name="sel2"  >
+														<option>Choix Culture</option>
+														<?php
+														require "connection_bd.php";
+$resultat=mysqli_query($db, "select * from culture;");
+while ($ligne=mysqli_fetch_array($resultat)) {
+    ?>
+                                                         
+                                                            <option value="<?php echo $ligne['nom']; ?>"><?php echo $ligne['nom']; ?></option>
+															<?php
+} ?>
+                                                            </select>
 											</div>
 
 
@@ -349,7 +371,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 
 
-            
+        
 		<!-- footer -->
 		<div class="footer">
 			<p>© 2018 Olivia . All Rights Reserved . Dev by <a href="">Olivia</a></p>

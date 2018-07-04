@@ -26,14 +26,19 @@
                   
         
 
-   
 
                         <div class="container">
+                        
+
                                    <div class="row">
+                                        <picture>
+               
+                                                <img src="./r.png" class="img-fluid img-thumbnail" width="50%">
+                                              </picture>
                                        <div class="col-md-6">
                                        
                                           
-                                               <form>
+                                            <h3 id="res"></h3>                                               
                                                    <!-- Form start -->
                                                    <div class="row">
                                     
@@ -43,16 +48,16 @@
                                                            <div class="form-group">
                                                                
                                                                <select id="time" name="time" class="form-control">
-                                                                   <option value="8:00 to 9:00">Culture ----</option>
-                                                                   <option value="9:00 to 10:00">Olivier</option>
-                                                                   <option value="10:00 to 1:00">Amandier</option>
+                                                                   <option value="">Culture ----</option>
+                                                                   <option value="olivier">Olivier</option>
+                                                                   <option value="amandier">Amandier</option>
                                                                </select>
                                                            </div>
                                                        </div>
                                                        <div class="col-md-6">
                                                             <div class="form-group">
                                                                 
-                                                                <input id="email" name="varite" type="text" placeholder="Varité" class="form-control input-md">
+                                                                <input id="email" name="age" type="text" placeholder="Age" class="form-control input-md">
                                                             </div>
                                                         </div>
                                                        <!-- Select Basic -->
@@ -60,11 +65,11 @@
                                                        <!-- Button -->
                                                        <div class="col-md-6">
                                                            <div class="form-group">
-                                                               <button id="singlebutton"  type="submit" class="btn btn-default">Temps d'Irrigation</button>
+                                                               <button id="singlebutton" onclick="calcul()"  type="button" class="btn btn-default">Temps d'Irrigation</button>
                                                            </div>
                                                        </div>
                                                    </div>
-                                               </form>
+                                               
                                                <!-- form end -->
                                            </div>
                                        </div>
@@ -79,7 +84,32 @@
                   
                 </div>
             </div>  
-
+            <script>
+            function calcul(){
+                        
+                var c = document.getElementById("time");
+                var e = c.options[c.selectedIndex].value;
+                var res = document.getElementById("res");
+                if (e =="olivier"){
+                    if ( document.getElementById("email").value > 3){
+                    res.textContent = "10h";
+                    }
+                    else{
+                        res.textContent = "8h";
+                    }
+                }
+                if (e =="amandier"){
+                    if ( document.getElementById("email").value > 3){
+                    res.textContent = "9h";
+                    }
+                    else{
+                        res.textContent = "7h";
+                    }
+                }
+                
+                
+            }
+        </script>
 	
         <!--===============================================================================================-->
             <script src="vendor/animsition/js/animsition.min.js"></script>

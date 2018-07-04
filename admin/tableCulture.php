@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <head>
-<title>Colored  an Admin Panel Category Flat Bootstrap Responsive Website Template | Tables :: w3layouts</title>
+<title>Client</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Colored Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -78,142 +78,74 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<nav class="main-menu">
 		<ul>
 			<li>
-				<a href="index.html">
+				<a href="home.html">
 					<i class="fa fa-home nav_icon"></i>
 					<span class="nav-text">
-					Dashboard
+					Accueil
 					</span>
 				</a>
-			</li>
-			<li class="has-subnav">
-				<a href="javascript:;">
-				<i class="fa fa-cogs" aria-hidden="true"></i>
-				<span class="nav-text">
-					UI Components
-				</span>
-				<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
-				</a>
-				<ul>
-					<li>
-					<a class="subnav-text" href="buttons.html">
-					Buttons
-					</a>
-					</li>
-					<li>
-					<a class="subnav-text" href="grids.html">
-					Grids
-					</a>
-					</li>
-				</ul>
 			</li>
 			<li class="has-subnav">
 				<a href="javascript:;">
 				<i class="fa fa-check-square-o nav_icon"></i>
 				<span class="nav-text">
-				Forms
+				Ajouter
 				</span>
 				<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
 				</a>
 				<ul>
 					<li>
-						<a class="subnav-text" href="inputs.html">Inputs</a>
+						<a class="subnav-text" href="ajouterCulture.html">Culture</a>
 					</li>
 					<li>
-						<a class="subnav-text" href="validation.html">Form Validation</a>
-					</li>
-				</ul>
-			</li>
-			<li class="has-subnav">
-				<a href="javascript:;">
-					<i class="fa fa-file-text-o nav_icon"></i>
-						<span class="nav-text">Pages</span>
-					<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
-				</a>
-				<ul>
-					<li>
-						<a class="subnav-text" href="gallery.html">
-							Image Gallery
-						</a>
+						<a class="subnav-text" href="ajouterClient.html">Client</a>
 					</li>
 					<li>
-						<a class="subnav-text" href="calendar.html">
-							Calendar
-						</a>
-					</li>
-					<li>
-						<a class="subnav-text" href="signup.html">
-							Sign Up Page
-						</a>
-					</li>
-					<li>
-						<a class="subnav-text" href="login.html">
-							Login Page
-						</a>
+						<a class="subnav-text" href="ajouterSystem.html">System</a>
 					</li>
 				</ul>
 			</li>
 			<li>
-				<a href="charts.html">
+				<a href="tableCulture.php">
+					<i class="fa fa-file-text-o nav_icon"></i>
+					<span class="nav-text">
+					Culture
+					</span>
+				</a>
+			</li>
+			<li>
+				<a href="tableClient.php">
 					<i class="fa fa-bar-chart nav_icon"></i>
 					<span class="nav-text">
-						Charts
+					Client
 					</span>
 				</a>
 			</li>
 			<li>
-				<a href="typography.html">
-					<i class="icon-font nav-icon"></i>
+				<a href="tableSystem.php">
+					<i class="fa fa-check-square-o nav_icon"></i>
 					<span class="nav-text">
-					Typography
+					System d'irrigation
 					</span>
 				</a>
 			</li>
 			<li>
-				<a href="tables.html">
-					<i class="icon-table nav-icon"></i>
-					<span class="nav-text">
-					Tables
-					</span>
-				</a>
-			</li>
-			<li>
-				<a href="maps.html">
-					<i class="fa fa-map-marker" aria-hidden="true"></i>
-					<span class="nav-text">
-					Maps
-					</span>
-				</a>
-			</li>
-			<li>
-				<a href="error.html">
-					<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-					<span class="nav-text">
-					Error Page
-					</span>
-				</a>
-			</li>
-			<li class="has-subnav">
-				<a href="javascript:;">
-					<i class="fa fa-list-ul" aria-hidden="true"></i>
-					<span class="nav-text">Extras</span>
-					<i class="icon-angle-right"></i><i class="icon-angle-down"></i>
-				</a>
-				<ul>
-					<li>
-						<a class="subnav-text" href="faq.html">FAQ</a>
-					</li>
-					<li>
-						<a class="subnav-text" href="blank.html">Blank Page</a>
-					</li>
-				</ul>
-			</li>
+					<a href="AjouterCultureClient.php">
+						<i class="fa fa-check-square-o nav_icon"></i>
+						<span class="nav-text">
+						Culture Client
+						</span>
+					</a>
+				</li>
+			
+	
 		</ul>
 		<ul class="logout">
 			<li>
-			<a href="login.html">
+			<a href="logout.php">
 			<i class="icon-off nav-icon"></i>
 			<span class="nav-text">
-			Logout
+			Deconnection
 			</span>
 			</a>
 			</li>
@@ -228,7 +160,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</nav>
 		<section class="title-bar">
 			<div class="logo">
-				<h1><a href="index.html"><img src="images/logo.png" alt="" />Colored</a></h1>
+				<h1><a href="index.html"><img src="images/logo.png" alt="" />Club Equitation</a></h1>
 			</div>
 			<div class="full-screen">
 				<section class="full-top">
@@ -246,45 +178,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="header-right-left">
 						<!--notifications of menu start -->
 						<ul class="nofitications-dropdown">
-							<li class="dropdown head-dpdn">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i><span class="badge">3</span></a>
-								<ul class="dropdown-menu anti-dropdown-menu w3l-msg">
-									<li>
-										<div class="notification_header">
-											<h3>You have 3 new messages</h3>
-										</div>
-									</li>
-									<li><a href="#">
-									   <div class="user_img"><img src="images/1.png" alt=""></div>
-									   <div class="notification_desc">
-										<p>Lorem ipsum dolor amet</p>
-										<p><span>1 hour ago</span></p>
-										</div>
-									   <div class="clearfix"></div>	
-									</a></li>
-									<li class="odd"><a href="#">
-										<div class="user_img"><img src="images/2.png" alt=""></div>
-									   <div class="notification_desc">
-										<p>Lorem ipsum dolor amet </p>
-										<p><span>1 hour ago</span></p>
-										</div>
-									  <div class="clearfix"></div>	
-									</a></li>
-									<li><a href="#">
-									   <div class="user_img"><img src="images/3.png" alt=""></div>
-									   <div class="notification_desc">
-										<p>Lorem ipsum dolor amet </p>
-										<p><span>1 hour ago</span></p>
-										</div>
-									   <div class="clearfix"></div>	
-									</a></li>
-									<li>
-										<div class="notification_bottom">
-											<a href="#">See all messages</a>
-										</div> 
-									</li>
-								</ul>
-							</li>
+							
 							<li class="dropdown head-dpdn">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-bell"></i><span class="badge blue">3</span></a>
 								<ul class="dropdown-menu anti-dropdown-menu agile-notification">
@@ -324,57 +218,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</li>
 								</ul>
 							</li>	
-							<li class="dropdown head-dpdn">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-tasks"></i><span class="badge blue1">15</span></a>
-								<ul class="dropdown-menu anti-dropdown-menu agile-task">
-									<li>
-										<div class="notification_header">
-											<h3>You have 8 pending tasks</h3>
-										</div>
-									</li>
-									<li><a href="#">
-										<div class="task-info">
-											<span class="task-desc">Database update</span><span class="percentage">40%</span>
-											<div class="clearfix"></div>	
-										</div>
-										<div class="progress progress-striped active">
-											<div class="bar yellow" style="width:40%;"></div>
-										</div>
-									</a></li>
-									<li><a href="#">
-										<div class="task-info">
-											<span class="task-desc">Dashboard done</span><span class="percentage">90%</span>
-										   <div class="clearfix"></div>	
-										</div>
-										<div class="progress progress-striped active">
-											 <div class="bar green" style="width:90%;"></div>
-										</div>
-									</a></li>
-									<li><a href="#">
-										<div class="task-info">
-											<span class="task-desc">Mobile App</span><span class="percentage">33%</span>
-											<div class="clearfix"></div>	
-										</div>
-									   <div class="progress progress-striped active">
-											 <div class="bar red" style="width: 33%;"></div>
-										</div>
-									</a></li>
-									<li><a href="#">
-										<div class="task-info">
-											<span class="task-desc">Issues fixed</span><span class="percentage">80%</span>
-										   <div class="clearfix"></div>	
-										</div>
-										<div class="progress progress-striped active">
-											 <div class="bar  blue" style="width: 80%;"></div>
-										</div>
-									</a></li>
-									<li>
-										<div class="notification_bottom">
-											<a href="#">See all pending tasks</a>
-										</div> 
-									</li>
-								</ul>
-							</li>	
+							
 							<div class="clearfix"> </div>
 						</ul>
 					</div>	
@@ -388,9 +232,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</div>	
 								</a>
 								<ul class="dropdown-menu drp-mnu">
-									<li> <a href="#"><i class="fa fa-cog"></i> Settings</a> </li> 
-									<li> <a href="#"><i class="fa fa-user"></i> Profile</a> </li> 
-									<li> <a href="#"><i class="fa fa-sign-out"></i> Logout</a> </li>
+									<li> <a href="#"><i class="fa fa-cog"></i> Paramétres</a> </li> 
+									<li> <a href="#"><i class="fa fa-user"></i> Profil</a> </li> 
+									<li> <a href="#"><i class="fa fa-sign-out"></i> Déconnexion</a> </li>
 								</ul>
 							</li>
 						</ul>
@@ -405,433 +249,69 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- tables -->
 				
 				<div class="table-heading">
-					<h2>Basic Tables</h2>
+					<h2>Les Clients</h2>
+					<a  href="ajouterCulture.html"><i class="fa fa-plus fa-2x"></i> </a>
 				</div>
 				<div class="agile-tables">
 					<div class="w3l-table-info">
-					  <h3>Basic Implementation</h3>
+					  
 					    <table id="table">
 						<thead>
 						  <tr>
-							<th>Name</th>
-							<th>Age</th>
-							<th>Gender</th>
-							<th>Height</th>
-							<th>Province</th>
-							<th>Sport</th>
+							<th>ID Culture</th>
+							<th>Nom</th>
+	
+							<th></th>
 						  </tr>
 						</thead>
 						<tbody>
-						  <tr>
-							<td>Jill Smith</td>
-							<td>25</td>
-							<td>Female</td>
-							<td>5'4</td>
-							<td>British Columbia</td>
-							<td>Volleyball</td>
-						  </tr>
-						  <tr>
-							<td>John Stone</td>
-							<td>30</td>
-							<td>Male</td>
-							<td>5'9</td>
-							<td>Ontario</td>
-							<td>Badminton</td>
-						  </tr>
-						  <tr>
-							<td>Jane Strip</td>
-							<td>29</td>
-							<td>Female</td>
-							<td>5'6</td>
-							<td>Manitoba</td>
-							<td>Hockey</td>
-						  </tr>
-						  <tr>
-							<td>Gary Mountain</td>
-							<td>21</td>
-							<td>Male</td>
-							<td>5'8</td>
-							<td>Alberta</td>
-							<td>Curling</td>
-						  </tr>
-						  <tr>
-							<td>James Camera</td>
-							<td>31</td>
-							<td>Male</td>
-							<td>6'1</td>
-							<td>British Columbia</td>
-							<td>Hiking</td>
-						  </tr>
+
+                        <?php
+require "connection_bd.php";
+$resultat=mysqli_query($db, "select * from culture;");
+while ($ligne=mysqli_fetch_array($resultat)) {
+    ?>
+
+						<tr>
+							<td><?php echo $ligne['id']; ?></td>
+							<td><?php echo $ligne['nom']; ?></td>
+
+							
+              <td>         
+                <a  href="modifierculture.php?id=<?php echo $ligne['id'] ?>"><i class="fa fa-pencil-square-o fa-2x"></i></a>
+                <a class="text-danger" href="supprimerculture.php?id=<?php echo $ligne['id'] ?>"><i class="fa fa-trash-o fa-2x"></i></a>
+                &nbsp;&nbsp;
+							</td>
+
+						</tr>
+                    
+                          
+                          <?php
+} ?>
+
 						</tbody>
 					  </table>
 					</div>
-				  <code class="js">
-					$('#table').basictable();
-				  </code>
+				
+
 			
-				  <h3>Modifying Breakpoint</h3>
-				  <table id="table-breakpoint">
-					<thead>
-					  <tr>
-						<th>Name</th>
-						<th>Age</th>
-						<th>Gender</th>
-						<th>Height</th>
-						<th>Province</th>
-						<th>Sport</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<td>Jill Smith</td>
-						<td>25</td>
-						<td>Female</td>
-						<td>5'4</td>
-						<td>British Columbia</td>
-						<td>Volleyball</td>
-					  </tr>
-					  <tr>
-						<td>John Stone</td>
-						<td>30</td>
-						<td>Male</td>
-						<td>5'9</td>
-						<td>Ontario</td>
-						<td>Badminton</td>
-					  </tr>
-					  <tr>
-						<td>Jane Strip</td>
-						<td>29</td>
-						<td>Female</td>
-						<td>5'6</td>
-						<td>Manitoba</td>
-						<td>Hockey</td>
-					  </tr>
-					  <tr>
-						<td>Gary Mountain</td>
-						<td>21</td>
-						<td>Male</td>
-						<td>5'8</td>
-						<td>Alberta</td>
-						<td>Curling</td>
-					  </tr>
-					  <tr>
-						<td>James Camera</td>
-						<td>31</td>
-						<td>Male</td>
-						<td>6'1</td>
-						<td>British Columbia</td>
-						<td>Hiking</td>
-					  </tr>
-					</tbody>
-				  </table>
 
-				  <code class="js">
-					$('#table-breakpoint').basictable({<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;breakpoint: 768,<br />
-					});
-				  </code>
 			
-				  <h3>Force Responsive Off</h3>
 
-				 
-				  <table id="table-force-off">
-					<thead>
-					  <tr>
-						<th>Name</th>
-						<th>Age</th>
-						<th>Gender</th>
-						<th>Height</th>
-						<th>Province</th>
-						<th>Sport</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<td>Jill Smith</td>
-						<td>25</td>
-						<td>Female</td>
-						<td>5'4</td>
-						<td>British Columbia</td>
-						<td>Volleyball</td>
-					  </tr>
-					  <tr>
-						<td>John Stone</td>
-						<td>30</td>
-						<td>Male</td>
-						<td>5'9</td>
-						<td>Ontario</td>
-						<td>Badminton</td>
-					  </tr>
-					  <tr>
-						<td>Jane Strip</td>
-						<td>29</td>
-						<td>Female</td>
-						<td>5'6</td>
-						<td>Manitoba</td>
-						<td>Hockey</td>
-					  </tr>
-					  <tr>
-						<td>Gary Mountain</td>
-						<td>21</td>
-						<td>Male</td>
-						<td>5'8</td>
-						<td>Alberta</td>
-						<td>Curling</td>
-					  </tr>
-					  <tr>
-						<td>James Camera</td>
-						<td>31</td>
-						<td>Male</td>
-						<td>6'1</td>
-						<td>British Columbia</td>
-						<td>Hiking</td>
-					  </tr>
-					</tbody>
-				  </table>
+				
 
-				  <code class="js">
-					$('#table-force-off').basictable({<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;forceResponsive: false,<br />
-					});
-				  </code>
-
-				  <h3>Max Height</h3>
-				 <table id="table-max-height" class="max-height">
-					<thead>
-					  <tr>
-						<th>Name</th>
-						<th>Age</th>
-						<th>Gender</th>
-						<th>Height</th>
-						<th>Province</th>
-						<th>Sport</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<td>Jill Smith</td>
-						<td>25</td>
-						<td>Female</td>
-						<td>5'4</td>
-						<td>British Columbia</td>
-						<td>Volleyball</td>
-					  </tr>
-					  <tr>
-						<td>John Stone</td>
-						<td>30</td>
-						<td>Male</td>
-						<td>5'9</td>
-						<td>Ontario</td>
-						<td>Badminton</td>
-					  </tr>
-					  <tr>
-						<td>Jane Strip</td>
-						<td>29</td>
-						<td>Female</td>
-						<td>5'6</td>
-						<td>Manitoba</td>
-						<td>Hockey</td>
-					  </tr>
-					  <tr>
-						<td>Gary Mountain</td>
-						<td>21</td>
-						<td>Male</td>
-						<td>5'8</td>
-						<td>Alberta</td>
-						<td>Curling</td>
-					  </tr>
-					  <tr>
-						<td>James Camera</td>
-						<td>31</td>
-						<td>Male</td>
-						<td>6'1</td>
-						<td>British Columbia</td>
-						<td>Hiking</td>
-					  </tr>
-					</tbody>
-				  </table>
-
-				  <code class="js">
-					$('#table-max-height').basictable({<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;tableWrapper: true<br />
-					});
-				  </code>
-
-				  <h3>Use Media Query Over JS Resize</h3>
-				 
-				  <table id="table-no-resize">
-					<thead>
-					  <tr>
-						<th>Name</th>
-						<th>Age</th>
-						<th>Gender</th>
-						<th>Height</th>
-						<th>Province</th>
-						<th>Sport</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<td>Jill Smith</td>
-						<td>25</td>
-						<td>Female</td>
-						<td>5'4</td>
-						<td>British Columbia</td>
-						<td>Volleyball</td>
-					  </tr>
-					  <tr>
-						<td>John Stone</td>
-						<td>30</td>
-						<td>Male</td>
-						<td>5'9</td>
-						<td>Ontario</td>
-						<td>Badminton</td>
-					  </tr>
-					  <tr>
-						<td>Jane Strip</td>
-						<td>29</td>
-						<td>Female</td>
-						<td>5'6</td>
-						<td>Manitoba</td>
-						<td>Hockey</td>
-					  </tr>
-					  <tr>
-						<td>Gary Mountain</td>
-						<td>21</td>
-						<td>Male</td>
-						<td>5'8</td>
-						<td>Alberta</td>
-						<td>Curling</td>
-					  </tr>
-					  <tr>
-						<td>James Camera</td>
-						<td>31</td>
-						<td>Male</td>
-						<td>6'1</td>
-						<td>British Columbia</td>
-						<td>Hiking</td>
-					  </tr>
-					</tbody>
-				  </table>
-
-				  <code class="css">
-					@media only screen and (max-width: 568px) {<br />
-					&nbsp;&nbsp;#table-no-resize thead {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: none;<br />
-					&nbsp;&nbsp;}<br /><br />
-
-					&nbsp;&nbsp;#table-no-resize tbody td {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border: none !important;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: block;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vertical-align: top;<br />
-					&nbsp;&nbsp;}<br /><br />
-
-					&nbsp;&nbsp;#table-no-resize tbody td:before {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;content: attr(data-th) ": ";<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: inline-block;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;font-weight: bold;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 6.5em;<br />
-					&nbsp;&nbsp;}<br /><br />
-
-					&nbsp;&nbsp;#table-no-resize tbody td.bt-hide {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display: none;<br />
-					&nbsp;&nbsp;}<br />
-					}
-				  </code>
-
-				  <code class="js">
-					$('#table-no-resize').basictable({<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;noResize: true,<br />
-					});
-				  </code>
-
-				  <h3>Two Axis Styling</h3>
-				  <table id="table-two-axis" class="two-axis">
-					<thead>
-					  <tr>
-						<th>Name</th>
-						<th>Age</th>
-						<th>Gender</th>
-						<th>Height</th>
-						<th>Province</th>
-						<th>Sport</th>
-					  </tr>
-					</thead>
-					<tbody>
-					  <tr>
-						<td>Jill Smith</td>
-						<td>25</td>
-						<td>Female</td>
-						<td>5'4</td>
-						<td>British Columbia</td>
-						<td>Volleyball</td>
-					  </tr>
-					  <tr>
-						<td>John Stone</td>
-						<td>30</td>
-						<td>Male</td>
-						<td>5'9</td>
-						<td>Ontario</td>
-						<td>Badminton</td>
-					  </tr>
-					  <tr>
-						<td>Jane Strip</td>
-						<td>29</td>
-						<td>Female</td>
-						<td>5'6</td>
-						<td>Manitoba</td>
-						<td>Hockey</td>
-					  </tr>
-					  <tr>
-						<td>Gary Mountain</td>
-						<td>21</td>
-						<td>Male</td>
-						<td>5'8</td>
-						<td>Alberta</td>
-						<td>Curling</td>
-					  </tr>
-					  <tr>
-						<td>James Camera</td>
-						<td>31</td>
-						<td>Male</td>
-						<td>6'1</td>
-						<td>British Columbia</td>
-						<td>Hiking</td>
-					  </tr>
-					</tbody>
-				  </table>
-
-				  <code class="css w3agile-css">
-					table.two-axis tr td:first-of-type {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;background: #dff1f7;<br />
-					}<br /><br />
-
-					@media only screen and (max-width: 568px) {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;table.two-axis tr td:first-of-type,<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;table.two-axis tr:nth-of-type(2n+2) td:first-of-type,<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;table.two-axis tr td:first-of-type:before
-					 {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;background: #dff1f7;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;color: #ffffff;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />
-
-					&nbsp;&nbsp;&nbsp;&nbsp;table.two-axis tr td:first-of-type {<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;border-bottom: 1px solid #e4ebeb;<br />
-					&nbsp;&nbsp;&nbsp;&nbsp;}<br />
-					}
-				  </code>
-
-				</div>
-				<!-- //tables -->
+			
 			</div>
 		</div>
 		<!-- footer -->
-		<div class="footer">
-			<p>© 2016 Colored . All Rights Reserved . Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-		</div>
+		
 		<!-- //footer -->
 	</section>
 	<script src="js/bootstrap.js"></script>
 	<script src="js/proton.js"></script>
+
+
+
+
 </body>
 </html>
